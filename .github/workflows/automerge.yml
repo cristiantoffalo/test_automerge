@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: "Automerging branches"
-        uses: cristiantoffalo/automerger@main
+        uses: cristiantoffalo/automerger
