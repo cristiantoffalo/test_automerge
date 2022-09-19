@@ -1,0 +1,10 @@
+name: automerge
+on: [push]
+jobs:
+  automerging-branches:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: "Automerging branches"
+        uses: cristiantoffalo/automerger@main
